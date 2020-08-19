@@ -1,7 +1,7 @@
 {
   "author": "Auth0",
-  "name": "@auth0/auth0-react",
-  "version": "1.0.0",
+  "name": "faisalil-auth0-react",
+  "version": "2.2.2",
   "description": "Auth0 SDK for React Single Page Applications (SPA)",
   "keywords": [
     "auth0",
@@ -24,7 +24,7 @@
     "lint": "eslint --ext=tsx ./src ./__tests__",
     "start": "rollup -cw",
     "test": "jest --coverage",
-    "prepack": "npm run test && npm run build",
+    "prepack": "npm run build",
     "docs": "typedoc --options typedoc.js src node_modules/@auth0/auth0-spa-js/dist/typings/global.d.ts",
     "install:examples": "npm i --prefix=examples/cra-react-router --no-package-lock; npm i --prefix=examples/gatsby-app --no-package-lock; npm i --prefix=examples/nextjs-app --no-package-lock; npm ci --prefix=examples/users-api",
     "start:cra": "npm start --prefix=examples/cra-react-router",
@@ -98,6 +98,6 @@
     }
   },
   "dependencies": {
-    "@auth0/auth0-spa-js": "^1.9.0"
+    "faisalil-auth0-spa-js": "2.2.2"
   }
 }

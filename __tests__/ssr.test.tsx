@@ -5,7 +5,7 @@ import { renderHook } from '@testing-library/react-hooks';
 import { createWrapper } from './helpers';
 import { useAuth0 } from '../src';
 
-jest.unmock('@auth0/auth0-spa-js');
+jest.unmock('faisalil-auth0-spa-js');
 
 describe('In a Node SSR environment', () => {
   it('auth state is initialised', async () => {

@@ -1,4 +1,4 @@
-import { Auth0ClientOptions } from '@auth0/auth0-spa-js';
+import { Auth0ClientOptions } from 'faisalil-auth0-spa-js';
 import React, { PropsWithChildren } from 'react';
 import Auth0Provider from '../src/auth0-provider';
 

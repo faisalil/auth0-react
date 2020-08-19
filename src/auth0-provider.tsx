@@ -7,7 +7,7 @@ import {
   PopupLoginOptions,
   PopupConfigOptions,
   RedirectLoginOptions as Auth0RedirectLoginOptions,
-} from '@auth0/auth0-spa-js';
+} from 'faisalil-auth0-spa-js';
 import Auth0Context, { RedirectLoginOptions } from './auth0-context';
 import { hasAuthParams, loginError, wrappedGetToken } from './utils';
 import { reducer } from './reducer';

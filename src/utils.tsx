@@ -1,7 +1,7 @@
 import {
   GetTokenSilentlyOptions,
   GetTokenWithPopupOptions,
-} from '@auth0/auth0-spa-js';
+} from 'faisalil-auth0-spa-js';
 import { OAuthError } from './errors';
 
 const CODE_RE = /[?&]code=[^&]+/;

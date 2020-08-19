@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { mocked } from 'ts-jest/utils';
 import Auth0Context from '../src/auth0-context';
 import { renderHook, act } from '@testing-library/react-hooks';
-import { Auth0Client } from '@auth0/auth0-spa-js';
+import { Auth0Client } from 'faisalil-auth0-spa-js';
 import pkg from '../package.json';
 import { createWrapper } from './helpers';
 
